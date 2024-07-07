@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        #input {
+            width: 52%;
+            height: 400px;
+            font-size: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            resize: none;
+        }
+        #book {
+            width: 24%;
+            height: 50px;
+            font-size: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+        }
+        .boookdetail {
+            display: flex;
+            justify-content: space-between;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            margin-top: 100px;
+            margin-left: 600px;
+        }
+        .button {
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            margin-left: 275px;
+            cursor: pointer;
+        }
+        .image{
+            width: 400px;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form class="form">
+        <label style="text-align: center;margin-right: 600px;" for=""><h1>Enter Your Blog</h1></label>
+        <input type="file" name="image" id="" class="image" placeholder="Upload an Image Of the Book">
+    <span class="bookdetail">
+        <input type="text" name="" id="book" placeholder="Name of The Book">
+        <input type="text" id="book" placeholder="Author">
+    </span>
+    <textarea name="" id="input" rows="100" cols="100" placeholder="Enter Your Blog"></textarea>
+    <button type="submit" class="button">Submit</button>
+    </form>
+</body>
+</html>

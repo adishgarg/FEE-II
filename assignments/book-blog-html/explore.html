@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+     body{
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+
+     }
+     body h1{
+        padding-left:50%;
+        padding-top: 400%;
+        width: 900px;
+     }
+     .cont{
+        display: flex;
+     }
+     .blog{
+        width: 900px;
+        font-size: x-large;
+        padding-left: 35%;
+        content: justify;
+        animation: fadeInUp 1s ease-in-out;
+        padding-top: 7%;
+     }
+     .ul li{
+        width: 300px;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+
+     }
+     .list{
+        overflow-y: scroll;
+        height: 100vh;
+     }
+     .content{
+        width: 280px;
+     }
+     
+     @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="list">
+            <ul class="ul">
+                <li onclick="showBlog('blog1')"><img src="public/black_hole.jpg" alt="">
+                <p class="content">"Black Holes: The Key To Understanding The Universe"</p></li>
+                <li onclick="showBlog('blog2')"><img src="public/sapiens.png" width="280"><p class="content">"Sapiens: Bried History of Human Kind"</p></li>
+                <li onclick="showBlog('blog3')">Book 3</li>
+            </ul>
+        </div>
+        <div class="blog-content">
+            <div id="blog1" class="blog" style="display: none;">Authors: Jeff Foreshaw and Brian Cox <br><br>Black Holes: The Key to Understanding the Universe delves into the profound mysteries of black holes, exploring their significance in modern astrophysics and their potential to unlock the secrets of the cosmos. The book provides a comprehensive overview of black hole formation, characteristics, and the groundbreaking theories associated with them, including relativity and quantum mechanics. It highlights the role of black holes in galaxy formation, their influence on the fabric of space-time, and their impact on our understanding of gravity. The author elucidates complex scientific concepts with clarity, making them accessible to both enthusiasts and scholars. Through a journey of historical discoveries, current research, and future prospects, the book underscores the pivotal role of black holes in unveiling the fundamental nature of the universe.
+            <br><br>
+            Blogged by: Adish Garg</div>
+            <div id="blog2" class="blog" style="display:none;">Author: Yuval Noah Harai<br><br>Sapiens: A Brief History of Humankind by Yuval Noah Harari provides a comprehensive overview of the history of Homo sapiens, spanning from our emergence around 70,000 years ago to the present day. The book is structured around four major revolutions: the Cognitive Revolution, which endowed humans with unique cognitive abilities; the Agricultural Revolution, which transitioned societies from foraging to farming, leading to significant social and environmental changes; the unification of humankind through the development of money, empires, and religions, which created large, stable societies; and the Scientific Revolution, which brought about unprecedented technological and intellectual advancements. Harari explores how these revolutions shaped human societies and their impact on the planet, offering a thought-provoking narrative that intertwines history, anthropology, biology, and economics.<br><br>Blogged by: Adish Garg</div>
+            <div id="blog3" class="blog" style="display:none;">Content for Book 3</div>
+        </div> 
+    </div>
+</body>
+<script>
+    function showBlog(blogId) {
+    document.querySelectorAll('.blog').forEach(function(blog) {
+        blog.style.display = 'none';
+    });
+
+    document.getElementById(blogId).style.display = 'block';
+}
+</script>
+</html>
