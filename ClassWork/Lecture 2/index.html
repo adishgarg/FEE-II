@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<!-- Doctype basically tells us the version of html which is html5 -->
+<html>
+    <head>
+        <!-- Contains all the meta tags and titel. Meta tag: they provide necessary information to the browser -->
+        <title>Basic Html</title>
+        <style>
+            table{
+                width:50%;
+                margin: 0;
+                border-collapse: collapse;
+            }
+            th, td{
+                padding: 0;
+                text-align: left;
+            }
+            th{
+                background-color: aqua;
+            }
+            input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        </style>
+    </head>
+    <body>
+        <!-- Things written here, directly displayed on our website. -->
+        <center><h2>Semantic HTML</h2></center>
+       <header>
+        <p>Website Header</p>
+       </header>
+       <a href="https://www.google.com" target="_blank">Google</a>
+       <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+       </nav>
+       <main>
+        <article>
+            <center><h2>Article Title</h2></center>
+            <p><b><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ea molestiae optio aliquid libero temporibus exercitationem alias excepturi, illo sit nam, iusto fugit necessitatibus repudiandae magnam minima blanditiis! Dolorem commodi sunt nisi, eligendi exercitationem iure corrupti esse, suscipit illum facere magni ea placeat ullam libero ratione harum totam eveniet non.</i></b></p>
+        </article>
+       </main>
+        <h1>Hello my name is Kanav</h1>
+        <h2>This is a heading</h2>
+        <h3>This is a heading</h3>
+        <h4>This is a heading</h4>
+        <h5>This is a heading</h5>
+        <h6>This is a heading</h6>
+        <h2>Paragraph Tag</h2>
+        <b>This is a bold text</b><br>
+        <i>This is a strong text</i><br>
+        <mark>This is a strong text</mark><br>
+        <strong>This is a strong text</strong><br>
+        <small>This is a strong text</small><br>
+        <del>This is a strong text</del><br>
+        <em>This is a strong text</em><br>
+        <ins>This is a strong text</ins><br>
+        <!-- subscript text -->
+        <p>H<sub>2</sub>O</p>
+        <!-- superscript text -->
+        <p>x<sup>2</sup>= 64</p>
+        <p>(a<sup>2</sup>+ b<sup>2</sup>)</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut nesciunt expedita itaque consequuntur quod. Architecto facere ipsam nemo molestiae? Quis porro similique voluptas alias unde. Molestias error ipsam, possimus autem animi fuga ea repudiandae commodi tempore nobis odio placeat consequuntur odit. Nesciunt numquam odio adipisci. Quisquam, quae. Quisquam, quae.</p>
+        <h2>Links and Images</h2>
+       <a href="https://www.google.com">This is a link</a><br>
+       <center><img src="/Images/OIP.jpeg" alt="Beautiful" width="360px""></center><br>
+       <h2>Unordered Lists</h2>
+       <!-- A list with bullet points and no sequence -->
+       <ul>
+        <li>Punjab
+            <ul>
+                <li>Chandigarh</li>
+                <li>Ludhiana</li>
+                <li>Amritsar</li>
+            </ul>
+        </li>
+        <li>Uttarakhand</li>
+        <li>Madhya Pradesh
+            <ul>
+                <li>Indore</li>
+                <li>Bhopal</li>
+                <li>Gwalior</li>
+            </ul>
+        </li>
+        <li>J&K</li>
+        <li>Bihar</li>
+       </ul>
+       <ul>
+        <li><a href="https://shop.mango.com/in/en" target="_blank">Mango</a></li>
+        <li><a href="https://www.apple.com/in/" target="_blank">Apple</a></li>
+        <li>Banana</li>
+       </ul>
+       <h2>Ordered Lists</h2>
+       <!-- A list with sequence representation and proper bullet points -->
+       <ol type="A">
+        <li>Ferrari
+            <ol type="a">
+                <li>Ferrari Portofino M</li>
+                <li>F8 Spider</li>
+                <li>LaFerrari</li>
+            </ol>
+        </li>
+        <li>Lamborgini</li>
+        <li>Tesla</li>
+       </ol>
+       <div>
+        <span></span>
+       </div>
+       <h2>Tables</h2>
+       <!-- <table>
+        <tr>
+            <th>Name</th>
+            <th>Section</th>
+            <th>Roll Number</th>
+        </tr>
+        <tr>
+            <td>Kanav</td>
+            <td>24</td>
+            <td>2310992111</td>
+        </tr>
+       </table> -->
+       <!-- <h2>Forms</h2>
+       <form>
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name">
+        <input type="submit" value="Submit"><br>
+        <label for="age">&nbsp;&nbsp;&nbsp;Age :</label>
+        <input type="text" id="age" name="age">
+        <input type="submit" value="Submit">
+       </form> -->
+       <h2>Forms using Tables</h2>
+       <table>
+        <tr>
+            <th colspan="2">User Information</th>
+        </tr>
+        <tr>
+            <td><label for="username">Username : </label></td>
+            <td><input type="text" id="username" name="username"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email : </label></td>
+            <td><input type="text" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password : </label></td>
+            <td><input type="text" id="password" name="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" value="Submit">
+            </td>
+        </tr>
+       </table>
+       <footer>
+        <p>Webiste Footer</p>
+       </footer>
+    </body>
+</html>
