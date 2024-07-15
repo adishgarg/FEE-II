@@ -1,0 +1,32 @@
+/* Universal Selectors */
+*{
+    font-size: 20px;
+    /* padding: 0;
+    margin: 0; */
+    font-family: 'Courier New', Courier, monospace;
+}
+/* ID Selectors */
+#superheroes{
+    text-decoration: line-through;
+    color: blue;
+}
+
+/* Class Selectors */
+.super{
+    background-color: brown;
+    color: #ccc;
+}
+
+/* ELement Selectors */
+p{
+    background-color: brown;
+}
+
+/* Attribute Selectors */
+input[type="password"]{
+    background-color: green;
+}
+
+input[type="text"]{
+    background-color: pink;
+}
