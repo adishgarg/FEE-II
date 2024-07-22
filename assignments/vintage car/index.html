@@ -1,34 +1,144 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Vintage Car</title>
 </head>
+
 <body>
     <nav>
-        <a href="">Home</a>
-        <a href="">Services</a>
-        <a href="">Our Work</a>
-        <a href="">About Us</a>
-        <a href="">Contact</a>
-        <a href="">Book Online</a>
+        <a>Home</a>
+        <a>Services</a>
+        <a>Our work</a>
+        <a>About us</a>
+        <a>Contact</a>
+        <a>Book online</a>
+        <a>Log In</a>
     </nav>
-    <main>
-        <div class="cont">
-            <img class="background" src="assets/car.webp" alt="">
-            <div class="content">
-                <div class="black-bg">
-                    <img src="assets/blackerbg.webp" alt="">
+    <div class="brand">
+        <h1 class="titleText">Vintage Cars</h1>
+        <div style="margin-top: 0%">Socials will be here</div>
+    </div>
+    <div class="service">
+        <div>
+            <div class="titleText" style="font-size: xx-large">
+                <div>SERVICES</div>
+                <div>___</div>
+            </div>
+        </div>
+
+        <div class="providedServices">
+            <div>
+                <h1>🛠️</h1>
+                <h2>REPAIRS</h2>
+                <p>General Repairs, Specialist Repairs & Vintage Parts</p>
+            </div>
+            <div>
+                <h1>⬆️</h1>
+                <h2>UPHOLSTERY</h2>
+                <p>
+                    A Range of Fabrics, Including Vintage Leathers, & Wide Variety of
+                    Colors
+                </p>
+            </div>
+            <div>
+                <h1>🎨</h1>
+                <h2>PAINT WORK</h2>
+                <p>
+                    Spray paint, Custom Stencilling & Variety of Custom Made Artwork
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="ourWork">
+        <div class="titleText" style="font-size: xx-large">
+            <div style="color: black">OUR WORK</div>
+            <div style="color: black">___</div>
+        </div>
+
+        <p>A collection of cars we've renovated with passion</p>
+
+        <div class="workImages">
+            <div class="gridItem">
+                <img src="./assests/1.jpg" alt="" />
+            </div>
+            <div class="gridItem">
+                <img src="./assests/2.jpg" alt="" />
+            </div>
+            <div class="gridItem">
+                <img src="./assests/3.jpg" alt="" />
+            </div>
+            <div class="gridItem">
+                <img src="./assests/4.jpg" alt="" />
+            </div>
+            <div class="gridItem">
+                <img src="./assests/5.jpg" alt="" />
+            </div>
+            <div class="gridItem">
+                <img src="./assests/6.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+    <section class="aboutUs">
+        <main>
+            <div class="titleText" style="font-size: xx-large; color: black;">
+                <div>ABOUT US</div>
+                <div>___</div>
+            </div>
+            <p>
+                We are a team of passionate car enthusiasts who specialize in vintage
+                cars. We have been in the business for over 20 years and have a
+                reputation for quality work and excellent customer service. Our team of
+                experts can handle everything from general repairs to custom paintwork
+                and upholstery. We take pride in our work and treat every car as if it
+                were our own. If you have a vintage car that needs some love and
+                attention, we are the team for you.
+            </p>
+    </section>
+    </main>
+    <section class="someView"></section>
+    <section class="contact">
+        <img class="carLogo" src="./assests/carTransparent.png" alt="" />
+        <div class="contactInfo">
+            <div class="titleText" style="color: black;">
+                <h1>FIND US</h1>
+                <h1>___</h1>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>500 Terry Francine Street</p>
+                    <p>San Francisco, CA 94158</p>
+                    <p>Email: info@mysite.com</p>
+                    <p>Tel: 123-456-7890</p>
+                    <p>OPENING HOURS:</p>
+                    <p>Mon - Fri: 7am - 10pm</p>
+                    <p>Saturday: 8am - 10pm</p>
+                    <p>Sunday: 8am - 11pm</p>
+                </div>
+                <div class="contact-form">
+                    <form action="submit_form.php" method="post">
+                        <input type="text" name="first_name" placeholder="First Name" required>
+                        <input type="text" name="last_name" placeholder="Last Name">
+                        <input type="email" name="email" placeholder="Email *" required>
+                        <input type="text" name="subject" placeholder="Subject">
+                        <textarea name="message" placeholder="Message" rows="5"></textarea>
+                        <input type="submit" value="Submit" style="width: 100%;">
+                    </form>
                 </div>
             </div>
         </div>
-    </main>
-    
+    </section>
+    <footer>
+        <div>
+            SOME LOGOS WILL BE HERE
+        </div>
+        <div>
+            <p>© 2021 Vintage Cars. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
-
