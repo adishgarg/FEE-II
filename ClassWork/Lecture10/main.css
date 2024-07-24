@@ -1,0 +1,66 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.photos {
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
+    row-gap: 50px;
+    column-gap: 10px;
+}
+
+.mainpic {
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: block;
+}
+
+nav div {
+    background-color: brown;
+    height: 35px;
+}
+
+.navtitle {
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    font-family: Arial;
+}
+
+.navpic {
+    height: 20px;
+    width: 30px;
+    padding-left: 30px;
+    margin-top: 5px;
+
+}
+
+.title {
+    background-color: wheat;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 300px;
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 10px;
+    padding-top: 15px;
+
+}
+
+.mainpic:hover {
+    opacity: 0.3;
+}
+  
+  
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+} 
