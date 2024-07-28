@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+</head>
+<body>
+    <h1>College Admission Form</h1>
+    <form id="college-admission-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <label for="comment">About Me</label>
+        <textarea id="comment" name="comment"></textarea><br>
+
+        <label for="dob">D.O.B.</label>
+        <input type="date" id="dob" name="dob"><br>
+
+        <label for="subjects">Optional Subject</label>
+        <select id="subjects" name="subjects">
+            <option value="maths">Maths</option>
+            <option value="physics">Physics</option>
+            <option value="chemistry">Chemistry</option>
+        </select><br>
+
+        <input type="checkbox" id="tnc" name="tnc">
+        <label for="tnc">I agree with all the terms & conditions.</label><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
