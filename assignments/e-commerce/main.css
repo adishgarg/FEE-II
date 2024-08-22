@@ -1,12 +1,12 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f9;
+    background-color: #6EACDA;
     color: #333;
 }
 
 .navbar {
-    background-color: #343a40;
-    border-bottom: 3px solid #f8c471; 
+    background-color: #6EACDA;
+    border-bottom: 3px solid #03346E; 
 }
 
 .navbar-brand {
@@ -37,7 +37,7 @@ body {
 
 
 .jumbotron {
-    background-image: url('https://as2.ftcdn.net/v2/jpg/02/16/47/35/1000_F_216473592_NefHePTpMfvYMNjD3UQTUVJy7DFPwqKA.jpg');
+    background-image: url(assets/black.jpeg);
     background-size: cover;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
@@ -51,15 +51,15 @@ body {
 }
 
 .jumbotron .btn-primary {
-    background-color: #ffd700;
-    border-color: #ffd700;
+    background-color: #AD49E1;
+    border-color: #AD49E1;
     color: #333;
     font-weight: bold;
 }
 
 .jumbotron .btn-primary:hover {
-    background-color: #e6c200;
-    border-color: #e6c200;
+    background-color: #2E073F;
+    border-color: #2E073F;
 }
 
 
@@ -76,7 +76,7 @@ h2:after {
     display: block;
     width: 60px;
     height: 4px;
-    background-color: #ffd700;
+    background-color: #AD49E1;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -119,8 +119,8 @@ h2:after {
 }
 
 .card .btn-primary:hover {
-    background-color: #ffd700;
-    border-color: #ffd700;
+    background-color: #AD49E1;
+    border-color: #AD49E1;
     color: #333;
 }
 
@@ -144,7 +144,7 @@ h2:after {
 .carousel-item .card-title {
     font-size: 1.5rem;
     margin-top: 15px;
-    color: #ffd700;
+    color: #AD49E1;
 }
 
 .carousel-item .card-text {

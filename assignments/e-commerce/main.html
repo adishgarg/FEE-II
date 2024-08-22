@@ -14,7 +14,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Bagazone</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,21 +27,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Products</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Featured</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Testimonials</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Cart</a>
-                </li>
             </ul>
         </div>
     </nav>
 
     <div class="jumbotron text-center fade-in">
-        <h1 class="display-4">Welcome to the best e-commerce site</h1>
+        <h1 class="display-4">Welcome to the best site for electronics</h1>
         <p class="lead">Find the best products at the best prices.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Shop Now</a>
     </div>
@@ -52,9 +43,9 @@
          
             <div class="col-md-3 mb-4 slide-up">
                 <div class="card">
-                    <img src="../Assignment 3 ( E-commerece using bootstrap )/images/2.jpg" class="card-img-top" alt="Featured Product 1">
+                    <img src="./assets/images.png" class="card-img-top" alt="Featured Product 1">
                     <div class="card-body">
-                        <h5 class="card-title">Featured Product 1</h5>
+                        <h5 class="card-title">Earphones</h5>
                         <p class="card-text">$79.99</p>
                         <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
@@ -63,9 +54,9 @@
 
             <div class="col-md-3 mb-4 slide-up">
                 <div class="card">
-                    <img src="../Assignment 3 ( E-commerece using bootstrap )/images/3.jpg" class="card-img-top" alt="Featured Product 2">
+                    <img src="./assets/laptop.jpeg" class="card-img-top" alt="Featured Product 2">
                     <div class="card-body">
-                        <h5 class="card-title">Featured Product 2</h5>
+                        <h5 class="card-title">Laptop</h5>
                         <p class="card-text">$89.99</p>
                         <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
@@ -74,9 +65,9 @@
 
             <div class="col-md-3 mb-4 slide-up">
                 <div class="card">
-                    <img src="../Assignment 3 ( E-commerece using bootstrap )/images/4.jpg" class="card-img-top" alt="Featured Product 3">
+                    <img src="./assets/charger.jpg" class="card-img-top" alt="Featured Product 3">
                     <div class="card-body">
-                        <h5 class="card-title">Featured Product 3</h5>
+                        <h5 class="card-title">Charger</h5>
                         <p class="card-text">$99.99</p>
                         <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
@@ -86,9 +77,9 @@
             
             <div class="col-md-3 mb-4 slide-up">
                 <div class="card">
-                    <img src="../Assignment 3 ( E-commerece using bootstrap )/images/5.jpg" class="card-img-top" alt="Featured Product 4">
+                    <img src="./assets/pen-drive.jpg" class="card-img-top" alt="Featured Product 4">
                     <div class="card-body">
-                        <h5 class="card-title">Featured Product 4</h5>
+                        <h5 class="card-title">Pendrive</h5>
                         <p class="card-text">$69.99</p>
                         <a href="#" class="btn btn-primary">Add to Cart</a>
                     </div>
@@ -97,50 +88,44 @@
         </div>
     </div>
 
-    <div class="container my-5">
-        <h2 class="text-center mb-4 slide-up">Our Products</h2>
-        <div class="row">
-
-            <div class="col-md-4 mb-4 slide-up">
-                <div class="card">
-                    <img src="./assets/headphones.jpg" class="card-img-top" alt="Product 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Product 1</h5>
-                        <p class="card-text">$49.99</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
-                    </div>
+    <section class="col-md-6 offset-md-3">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4 text-center">Product Inquiry</h2>
+            <form class="max-w-lg mx-auto p-6 rounded-lg shadow-md">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+                    <input type="text" id="name" name="name" class="w-full px-3 py-2 border rounded-lg" required>
                 </div>
-            </div>
-
-            <div class="col-md-4 mb-4 slide-up">
-                <div class="card">
-                    <img src="./assets/phones.jpg" class="card-img-top" alt="Product 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Product 2</h5>
-                        <p class="card-text">$59.99</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
-                    </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+                    <input type="email" id="email" name="email" class="w-full px-3 py-2 border rounded-lg" required>
                 </div>
-            </div>
-
-            <div class="col-md-4 mb-4 slide-up">
-                <div class="card">
-                    <img src="./assets/watch.jpg" class="card-img-top" alt="Product 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Product 3</h5>
-                        <p class="card-text">$39.99</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
-                    </div>
+                <div class="mb-4">
+                    <label for="product" class="block text-gray-700 font-bold mb-2">Product</label>
+                    <input type="text" id="product" name="product" class="w-full px-3 py-2 border rounded-lg" required>
                 </div>
-            </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+                    <textarea id="message" name="message" class="w-full px-3 py-2 border rounded-lg" rows="4" required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-blue-500 text-black px-4 py-2 rounded-lg hover:bg-blue-700">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+<footer class="bg-gray-800 text-white py-6 mt-8">
+    <div class="container mx-auto text-center">
+        <p class="mb-4">&copy; 2023 Your Company Name. All rights reserved.</p>
+        <div class="flex justify-center space-x-4">
+            <a href="#" class="hover:text-gray-400">Privacy Policy</a>
+            <a href="#" class="hover:text-gray-400">Terms of Service</a>
+            <a href="#" class="hover:text-gray-400">Contact Us</a>
         </div>
     </div>
-
-    <footer class="text-center">
-        <div class="container">
-            <p class="fade-in">&copy; 2024 E-Shop. All Rights Reserved.</p>
-        </div>
-    </footer>
+</footer>
 
 </body>
 
